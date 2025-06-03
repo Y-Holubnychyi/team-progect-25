@@ -1,0 +1,132 @@
+.about-us {
+  background-color: #fbfbfb;
+  padding: 40px 0;
+}
+
+.about-us-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.text-title-container {
+  background-color: #f3f3f3;
+  padding: 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  border-radius: 30px;
+  width: 335px;
+  margin: 0 auto;
+}
+
+.title-about-us {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.text-first-part,
+.text-second-part {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.about-btn {
+  background-color: #3350e9;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 18px;
+  padding: 15px 37px;
+  width: 160px;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  background-color: #1f3cd4;
+}
+
+.about-us-picture {
+  width: 335px;
+  height: 446px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ---------------- TABLET ---------------- */
+@media screen and (min-width: 768px) {
+  .about-us-cont {
+    padding: 0 32px;
+    gap: 40px;
+  }
+
+  .text-title-container {
+    width: 704px;
+    padding: 80px 60px 60px;
+    gap: 40px;
+    border-radius: 50px;
+  }
+
+  .title-about-us {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .text-first-part,
+  .text-second-part {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .about-btn {
+    border-radius: 16px;
+  }
+
+  .about-us-picture {
+    width: 704px;
+    height: 512px;
+    border-radius: 50px;
+  }
+}
+
+/* ---------------- DESKTOP ---------------- */
+@media screen and (min-width: 1280px) {
+  .about-us {
+    padding-top: 50px;
+  }
+
+  .about-us-cont {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+    max-width: 1280px;
+    height: 532px;
+    margin: 0 auto;
+  }
+
+  .text-title-container {
+    width: 580px;
+    height: 532px;
+    padding: 80px 60px;
+  }
+
+  .about-us-picture {
+    width: 530px;
+    height: 532px;
+    border-radius: 50px;
+  }
+}

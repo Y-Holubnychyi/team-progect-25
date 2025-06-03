@@ -1,0 +1,215 @@
+.catalog {
+  font-family: var(--font-family);
+  padding-bottom: 60px;
+  background-color: #fbfbfb;
+}
+.catalog-container {
+  padding: 0px 20px;
+  width: 375px;
+  height: 1660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catalog-item {
+  width: 335px;
+  height: 364px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+}
+@media only screen and (min-width: 768px) {
+  .catalog {
+    padding-bottom: 0;
+    background-color: #fbfbfb;
+  }
+  .catalog-container {
+    width: 704px;
+    height: 1390px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog {
+    padding-bottom: 0;
+    background-color: #fbfbfb;
+  }
+  .catalog-container {
+    padding: 0px 65px;
+    width: 1280px;
+    height: 944px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.catalog-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+.catalog-list {
+  margin-top: 24px;
+  /* margin-bottom: 40px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-list {
+    row-gap: 32px;
+    column-gap: 16px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-list {
+    width: 1150px;
+    height: 860px;
+    column-gap: 23px;
+  }
+}
+
+.catalog-item {
+  width: 368px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-item {
+    width: calc((100% - 16px) / 2);
+    padding: 24px 32px;
+    height: 414px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-item {
+    width: calc((100% - 2 * 23px) / 3);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .catalog-item:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+.catalog-container-nev {
+  max-width: 280px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-container-nev {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-container-nev {
+    min-width: 304px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-img {
+    max-width: 268px;
+  }
+}
+
+.catalog-picture-box {
+  padding: 18px 36px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-picture-box {
+    padding: 10px 6px;
+  }
+}
+
+.catalog-cont-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* назва годинника */
+.catalog-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-subtitle {
+    font-size: 20px;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-cont-text {
+    max-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-cont-text {
+    max-width: 304px;
+  }
+}
+
+/* ціна */
+.catalog-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+/* кнопка */
+.catalog-btn {
+  display: block;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-btn {
+    display: none;
+  }
+}

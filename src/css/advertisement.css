@@ -1,0 +1,133 @@
+.advertisement {
+  font-family: 'Gilroy', sans-serif;
+  padding-top: 0;
+  background-color: #fbfbfb;
+}
+
+.container-advertisement {
+  border-radius: 30px;
+  width: 335px;
+  height: 363px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .advertisement {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .advertisement {
+    padding-bottom: 0;
+  }
+}
+
+.container-advertisement {
+  background-color: black;
+  background-image: url(../img/advertisement-img/advertisement-mobile.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  position: relative;
+}
+
+@media (min-resolution: 192dpi) {
+  .container-advertisement {
+    background-image: url(../img/advertisement-img/advertisement-mobile.webp);
+  }
+}
+
+@media (min-width: 768px) {
+  .container-advertisement {
+    background-image: url(../img/advertisement-img/advertisement-tablet.webp);
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 30px;
+    width: 704px;
+    height: 425px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-advertisement {
+    background-image: url(../img/advertisement-img/advertisement.webp);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 83px 80px;
+    width: 1150px;
+    height: 298px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.advertisement-visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.advertisement-description {
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+  max-width: 279px;
+  font-weight: 600;
+}
+
+.advertisement-description span {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+@media (min-width: 768px) {
+  .advertisement-description {
+    font-size: 48px;
+    max-width: 576px;
+    margin-bottom: 30px;
+    line-height: 92%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .advertisement-description {
+    max-width: 690px;
+  }
+}
+
+.advertisement-contact-link {
+  display: inline-block;
+  padding: 15px 43px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+  align-self: flex-start;
+}
+
+.advertisement-contact-link:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (min-width: 1280px) {
+  .advertisement-contact-link {
+  }
+}

@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu {
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* html,
+body {
+  overflow-x: hidden;
+} */

@@ -1,0 +1,25 @@
+:root {
+  background: #0c0c0c;
+  scroll-behavior: smooth;
+  background: #f3f3f3;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+main {
+  flex-grow: 1;
+}
+main:has(.back-link) {
+  text-align: center;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

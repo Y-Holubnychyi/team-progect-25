@@ -1,0 +1,41 @@
+/* Styles for Mobile devices 320*/
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-paddings {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-paddings:last-child {
+  padding-bottom: 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .section-paddings {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section-paddings:last-child {
+    padding-bottom: 32px;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+  .section-paddings {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

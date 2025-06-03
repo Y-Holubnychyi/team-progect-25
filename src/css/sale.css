@@ -1,0 +1,324 @@
+/* ================ SALE STYLES ================ */
+.sale-section {
+  background-color: #fbfbfb;
+}
+.sale-container-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-top: 0;
+  margin-bottom: 24px;
+  width: 64px;
+  height: 32px;
+}
+.sale-content-container {
+  display: block;
+  width: 335px;
+  height: 1066px;
+}
+.sale-img-container {
+  display: block;
+  width: 335px;
+  height: 485px;
+  gap: 20px;
+}
+.sale-img-list {
+  display: flex;
+  width: 335px;
+  height: 80px;
+  gap: 5px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sale-descr-container {
+  border-radius: 50px;
+  width: 335px;
+  height: 561px;
+  background: #3350e9;
+  margin-top: 20px;
+  padding: 48px 28px;
+}
+.sale-descr-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  width: 279px;
+  height: 56px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.title-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sale-price-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+.sale-price-item {
+  display: flex;
+  position: relative;
+  padding: 8px 12px;
+  width: 68px;
+  height: 32px;
+  border-radius: 8px;
+  margin-right: 9px;
+  background: rgba(251, 251, 251, 0.1);
+}
+.sale-price-txt {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin: 0;
+  transform: translateY(-50%) translateX(-50%);
+}
+.price-txt {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.sale-descr-txt {
+  width: 279px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+}
+.sale-block {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  margin-bottom: 0;
+  width: 279px;
+  height: 112px;
+  padding: 0;
+  gap: 8px;
+}
+.sale-block-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-container-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 95px;
+    height: 44px;
+  }
+  .sale-content-container {
+    display: block;
+    width: 704px;
+    height: 1116px;
+  }
+  .sale-img-container {
+    display: flex;
+    align-items: center;
+    width: 704px;
+    height: 558px;
+    gap: 20px;
+  }
+  .sale-img-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 132px;
+    height: 558px;
+    gap: 0;
+    padding-left: 0;
+    margin: 0;
+  }
+  .sale-img-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .sale-img-item {
+    width: 132px;
+    height: 132px;
+  }
+
+  .sale-img-one {
+    width: 552px;
+    height: 558px;
+  }
+  .sale-descr-container {
+    border-radius: 50px;
+    width: 704px;
+    height: 518px;
+    background: #3350e9;
+    margin-top: 40px;
+    padding: 60px;
+  }
+  .sale-descr-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    width: 436px;
+    height: 72px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .title-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .sale-price-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .sale-price-item {
+    display: flex;
+    position: relative;
+    padding: 8px 12px;
+    width: 78px;
+    height: 32px;
+    border-radius: 8px;
+    margin-right: 9px;
+    background: rgba(251, 251, 251, 0.1);
+  }
+  .sale-price-txt {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin: 0;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  .price-txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+  }
+  .sale-descr-txt {
+    width: 584px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+  }
+  .sale-block {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 398px;
+    height: 76px;
+    padding: 0;
+    gap: 8px;
+  }
+  .sale-block-item {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    height: 642px;
+    padding: 0px 65px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sale-container-title {
+    margin-top: 0;
+    width: 95px;
+    height: 44px;
+  }
+  .sale-content-container {
+    display: flex;
+    width: 1150px;
+    height: 558px;
+  }
+  .sale-img-container {
+    width: 580px;
+    height: 558px;
+  }
+
+  .sale-img-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .sale-img-item {
+    height: 132px;
+  }
+  .sale-img-one {
+    width: 428px;
+  }
+  .sale-descr-container {
+    width: 530px;
+    height: 558px;
+    margin-top: 0;
+    margin-left: 40px;
+    padding-left: 60px;
+  }
+  .sale-descr-title {
+    width: 389px;
+    height: 72px;
+    margin-bottom: 10px;
+  }
+
+  .sale-descr-txt {
+    width: 410px;
+    margin-bottom: 0;
+  }
+}
+/* ================ /SALE STYLES ================ */
