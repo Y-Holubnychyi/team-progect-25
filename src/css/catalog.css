@@ -6,7 +6,7 @@
 .catalog-container {
   padding: 0px 20px;
   width: 375px;
-  height: 1660px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,7 +24,7 @@
   }
   .catalog-container {
     width: 704px;
-    height: 1390px;
+    /* height: 1390px; */
   }
 }
 
@@ -36,7 +36,7 @@
   .catalog-container {
     padding: 0px 65px;
     width: 1280px;
-    height: 944px;
+    /* height: 944px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -100,9 +100,18 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .catalog-item:nth-last-child(-n + 2) {
     display: none;
+  }
+} */
+@media screen and (max-width: 767px) {
+  /* Приховати всі, крім перших 4 */
+  .catalog-item {
+    display: none;
+  }
+  .catalog-item:nth-child(-n + 4) {
+    display: block;
   }
 }
 

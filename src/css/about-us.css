@@ -20,7 +20,8 @@
   flex-direction: column;
   gap: 28px;
   border-radius: 30px;
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   margin: 0 auto;
 }
 
@@ -59,14 +60,25 @@
 }
 
 .about-us-picture {
-  width: 335px;
-  height: 446px;
+  width: 100%;
+  max-width: 335px;
   border-radius: 30px;
   object-fit: cover;
   object-position: center;
+  margin: 0 auto;
 }
 
-/* ---------------- TABLET ---------------- */
+@media screen and (min-width: 375px) {
+  .text-title-container {
+    width: 335px;
+  }
+
+  .about-us-picture {
+    width: 335px;
+    height: 446px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about-us-cont {
     padding: 0 32px;
@@ -75,6 +87,7 @@
 
   .text-title-container {
     width: 704px;
+    max-width: none;
     padding: 80px 60px 60px;
     gap: 40px;
     border-radius: 50px;
@@ -97,12 +110,12 @@
 
   .about-us-picture {
     width: 704px;
+    max-width: none;
     height: 512px;
     border-radius: 50px;
   }
 }
 
-/* ---------------- DESKTOP ---------------- */
 @media screen and (min-width: 1280px) {
   .about-us {
     padding-top: 50px;
@@ -113,7 +126,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 65px;
-    max-width: 1280px;
+    width: 1280px;
     height: 532px;
     margin: 0 auto;
   }
