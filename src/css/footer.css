@@ -1,10 +1,10 @@
 .footer {
   background-color: #fbfbfb;
+  padding: 0 20px;
 }
 
 .footer-container {
-  width: 100%;
-  padding: 40px 28px 28px 28px;
+  padding: 60px 20px 20px 20px;
   background-color: #0c0c0c;
   border-radius: 30px;
 }
@@ -262,7 +262,7 @@
     display: flex;
     justify-content: space-between;
     width: 624px;
-    height: 36px;
+    max-height: 36px;
   }
 
   .footer-menu {
