@@ -43,9 +43,9 @@
     flex-direction: column;
     padding: 60px;
     border-radius: 30px;
-    max-width: none;
-    width: 704px;
-    height: 425px;
+    /* max-width: none; */
+    max-width: 704px;
+    max-height: 425px;
   }
 }
 
@@ -54,9 +54,9 @@
     background-image: url(../img/advertisement-img/advertisement.webp);
     flex-direction: row;
     justify-content: space-between;
-    padding: 83px 80px !important;
-    width: 1150px !important;
-    height: 298px !important;
+    padding: 83px 80px;
+    max-width: 1150px;
+    max-height: 298px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -120,7 +120,7 @@
   color: #000;
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .advertisement-contact-link {
   }
-}
+} */
