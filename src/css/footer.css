@@ -7,13 +7,13 @@
   padding: 60px 20px 20px 20px;
   background-color: #0c0c0c;
   border-radius: 30px;
+  max-width: 335px;
 }
 
 .first-container {
   position: relative;
   display: block;
-  width: 279px;
-  height: 273px;
+  width: 100%;
 }
 
 .footer-logo-container {
@@ -60,8 +60,8 @@
 }
 
 .text-footer {
-  width: 279px;
-  height: 96px;
+  max-width: 279px;
+  max-height: 96px;
   color: #fbfbfb;
   font-weight: 600;
   font-size: 20px;
@@ -90,8 +90,8 @@
 }
 
 .second-container {
-  width: 279px;
-  height: 148px;
+  max-width: 279px;
+  max-height: 148px;
   margin-top: 92px;
 }
 
@@ -103,12 +103,12 @@
 
 .footer-menu {
   display: flex;
-  width: 147px;
-  height: 64px;
+  max-width: 147px;
+  max-height: 64px;
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 8px;
-  margin-right: 49px;
+  margin-right: 15px;
 }
 
 .footer-menu-item {
@@ -124,8 +124,8 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
-  width: 83px;
-  height: 48px;
+  max-width: 83px;
+  max-height: 48px;
 }
 
 .vector {
@@ -179,8 +179,8 @@
 @media only screen and (min-width: 768px) {
   .footer-container {
     padding: 40px 40px 28px 40px;
-    width: 704px;
-    height: 540px;
+    max-width: 704px;
+    max-height: 540px;
   }
 
   .first-container {
@@ -222,8 +222,8 @@
 
   .text-footer {
     display: block;
-    width: 524px;
-    height: 96px;
+    max-width: 524px;
+    max-height: 96px;
     color: #fbfbfb;
     font-weight: 500;
     font-size: 28px;
@@ -253,21 +253,22 @@
   }
 
   .second-container {
-    width: 624px;
-    height: 110px;
+    max-width: 624px;
+    max-height: 110px;
     margin-top: 100px;
   }
 
   .footer-menu-cont {
     display: flex;
     justify-content: space-between;
-    width: 624px;
+    max-width: 624px;
     max-height: 36px;
   }
 
   .footer-menu {
     display: flex;
-    width: 400px;
+    max-width: 400px;
+    max-height: none;
     justify-content: space-between;
   }
 
@@ -284,8 +285,8 @@
     font-size: 14px;
     line-height: 1.29;
     color: #fbfbfb;
-    width: 162px;
-    height: 36px;
+    max-width: 162px;
+    max-height: 36px;
   }
 
   .vector {
@@ -336,8 +337,8 @@
 @media only screen and (min-width: 1280px) {
   .footer-container {
     padding: 40px 40px 28px 40px;
-    width: 1216px;
-    height: 400px;
+    max-width: 1216px;
+    max-height: 400px;
   }
 
   .first-container {
@@ -377,19 +378,19 @@
   }
 
   .second-container {
-    width: 1136px;
-    height: 110px;
+    max-width: 1136px;
+    max-height: 110px;
     margin-top: 126px;
   }
 
   .footer-menu-cont {
-    width: 1136px;
-    height: 36px;
+    max-width: 1136px;
+    max-height: 36px;
   }
 
   .footer-menu {
-    width: 505px;
-    height: 18px;
+    max-width: 505px;
+    max-height: 18px;
   }
 
   .footer-service-cont {
