@@ -8,8 +8,10 @@
   display: flex;
   position: relative;
   padding: 20px;
-  width: 375px;
-  height: 74px;
+  max-width: 100vw;
+  overflow-x: hidden;
+  /* width: 375px;
+  height: 74px; */
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -62,8 +64,10 @@
 .navigation {
   display: flex;
   align-items: center;
-  width: 1151px;
-  height: 36px;
+  /* width: 1151px;
+  height: 36px; */
+  max-width: 100vw;
+  /* overflow-x: hidden; */
 }
 
 .logo-header {
@@ -99,8 +103,9 @@
 
 .menu-list {
   display: flex;
-  width: 505px;
-  height: 28px;
+  /* width: 505px;
+  height: 28px; */
+  max-width: 100%;
   flex-wrap: nowrap;
   white-space: nowrap;
   gap: 40px;
@@ -232,11 +237,11 @@
   }
 
   .container-header {
-    padding-top: 20px; /* можливо, треба підкоригувати */
+    padding-top: 20px;
     padding-bottom: 20px;
   }
 
   body {
-    padding-top: 80px; /* щоб контент не ліз під хедер, підбери під висоту хедера */
+    padding-top: 80px;
   }
 }
